@@ -1,5 +1,5 @@
 We required certain unavoidable deviations from the registered report, which are summarized below:
-* **Data Source Changes.** The single deviation is the data source. We used GHTorrent dataset from [1] instead of from [2] dataset since it provides a larger and updated dataset (as to 2021.) We describe this change in $<$Section 2, Page 4$>$.
+* **Data Source Changes.** The single deviation is the data source. We used GHTorrent dataset from [1] instead of from [2] dataset since it provides a larger and updated dataset (as to 2021.) We describe this change in <Section 2, Page 4>.
 * **Metrics and Analysis Changes.** We identify three deviations.
   * (1) We removed AUROC for all of the tool because AUROC needs the probability of the data point belong to each class, which is not provided by the tool. This is described in <Section 2.1, Page 7>. 
   * (2) We also cannot report the precision, recall, and F1 score for the sentiment tool.
