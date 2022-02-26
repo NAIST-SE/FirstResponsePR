@@ -1,7 +1,16 @@
-We summarized the deviations of our paper from the registered report plan as follows:
-  * **Data Source Changes.** We used GHTorrent dataset[1] instead of [2] dataset since it provide more updated data (as to 2021.)
-  * **Metrics and Analysis Changes.** We modified the evaluation metrics in the sanity check. We decided to remove AUROC for all of the tool because AUROC need the probability of the data point belong to each class; and the tools we are using do not provide it. Additionally, we cannot report precision, recall, and F1 score for the sentiment tool as our manual validation is based on agree/not agree with the result of the tool; therefore we could not apply the calculation of these metrics to the output of sentiment tool. Additionally, we decided to use violinplot instead of boxplot to visualized RQ1 and RQ2 results since it provide more insight into how the data distributed.
-  * **Methodology changes.** We change to method for alleviating duplicated identity thread. As [3] approach focuses on merging the identity on the commit level not the GitHub account level, we found that it is difficult to apply this approach to this study. We ensure that our data does not strongly effect by the multiple identity by checking for the multiple identity along the way we perform the manual investigations in this research (i.e. sanity check) Furthermore, we used method as in [4] instead of card sorting as in [5] for creating the taxonomy of the negative first response in RQ2. This is because this approach is faster and easier to perform.
+We required certain unavoidable deviations from the registered report, which are summarized below:
+* **Data Source Changes.** The single deviation is the data source. We used GHTorrent dataset from [1] instead of from [2] dataset since it provides a larger and updated dataset (as to 2021.) We describe this change in $<$Section 2, Page 4$>$.
+* **Metrics and Analysis Changes.** We identify three deviations.
+  * (1) We removed AUROC for all of the tool because AUROC needs the probability of the data point belong to each class, which is not provided by the tool. This is described in <Section 2.1, Page 7>. 
+  * (2) We also cannot report the precision, recall, and F1 score for the sentiment tool.
+	     This is because the manual validation is binary ( based on agree/not agree ), which the sentiment is a scale from 1 to 5. 
+	     This is described in <Section 2.1, Page 7>. 
+  * (3) For the analysis and visualization of the results, we use violinplots instead of a boxplot to visualized RQ1 <Section 3.1, Page 9> and RQ2 <Section 3.2, Page 13>
+* **Methodology Changes.**  
+	    We identify two deviations.
+  * (1)  We change to method for alleviating duplicated identity threat. As [3] approach focuses on merging the identity on the commit level not the GitHub account level, we found that it is difficult to apply this approach. Instead, we manually check for the multiple identities systematically during the sanity check. This is described in <Section 2.1, Page 7>.
+  * (2) Instead of the tedious card sorting by all authors, similar to [4] and [5], we used manual coding with four authors that reach an agreement with a Kappa-agreement.
+	    Details are described in <Section 3.2, Page 11>.
 
 References
 
