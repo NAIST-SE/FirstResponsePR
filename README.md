@@ -6,6 +6,8 @@ It comprises of 4 preprocessed dataset as follows:
   * **D3**: contain statistical samples of negative first response, and distributed them to the coders to manually categorized them.
   * **D4**: contain variables vectors of the first contribution and the target class _future_contribution_ which indicate whether the first-time contributor continue contribute to the particular project or not.
  
+sanity_check.csv: Contain data produced from sanity check
+
 We also provide the [deviations](DEVIATIONS.md) of the paper from the plan in [registered reported](https://arxiv.org/abs/2104.02933) 
 
 # Note
