@@ -8,6 +8,10 @@ It comprises of 4 preprocessed dataset as follows:
  
 sanity_check.csv: Contain data produced from sanity check
 
+Data Filtering.ipynb: the script for data filtering process
+
+Experiment.ipynb: the script for preprocessing data and experiment
+
 We also provide the [deviations](DEVIATIONS.md) of the paper from the plan in [registered reported](https://arxiv.org/abs/2104.02933) 
 
 # Note
